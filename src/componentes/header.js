@@ -5,7 +5,7 @@ const Header = () => {
     <div>
       <div className="container">
         <h3>Super Hero App</h3>
-        <h4>Crea tu propio equipo de Super Heroes!</h4>
+        <h4>Create your own Super Hero Team! </h4>
       </div>
     </div>
   );

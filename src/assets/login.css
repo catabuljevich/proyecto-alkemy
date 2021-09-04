@@ -304,3 +304,7 @@ input[type="passeord"]:focus {
 input[type="password"]:placeholder {
   color: #cccccc;
 }
+
+.error {
+  color: red;
+}
