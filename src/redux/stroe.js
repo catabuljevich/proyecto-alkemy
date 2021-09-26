@@ -3,10 +3,10 @@ import { createStore, combineReducers, compose, applyMiddleware } from "redux";
 import thunk from "redux-thunk";
 
 //importamos los reducers de todos los ducks
-import heroReducer from "./heroDucks";
+import searchReducer from "./searchDucks";
 
 const rootReducer = combineReducers({
-  hero: heroReducer,
+  search: searchReducer,
 });
 
 //para configurar la extension de google chrome

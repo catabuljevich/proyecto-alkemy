@@ -12,7 +12,7 @@ function Card(props) {
   return (
     <div className="search-result ">
       <div className="left">
-        <img src={hero.image.url} alt={hero.name} />
+        <img src={hero.image.url} alt={hero.name} className="hero_img" />
       </div>
       <div className="right">
         <h1>{hero.name}</h1>
