@@ -1,6 +1,10 @@
 import React from "react";
 import { useState } from "react";
 
+//new useDispatch para consumir la accion  && useSelector para leer el state ppal
+//import { useDispatch, useSelector } from "react-redux";
+//import { obtenerHeoresAccion } from "../redux/searchDucks";
+
 function SearchBar(props) {
   const { onSearch } = props;
 
